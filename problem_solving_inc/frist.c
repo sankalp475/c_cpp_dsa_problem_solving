@@ -2,6 +2,6 @@
 
 int  main(void) {
 
-	printf(" hellasdo  ");
+	printf(" first c program  ");
 	return 0;
 }
