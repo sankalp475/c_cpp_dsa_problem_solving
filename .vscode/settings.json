@@ -2,6 +2,10 @@
 	"editor.fontFamily": "'Cartograph CF', Operater Mono",
 	"editor.fontSize": 22,
 	"editor.lineHeight": 48,
+	"terminal.integrated.fontFamily": "'FiraCode Nerd Font', monospace",
+	"terminal.integrated.tabs.enableAnimation": false,
+	"terminal.integrated.tabs.title": "${sequence}",
+	"terminal.integrated.fontSize": 16,
 	"editor.tokenColorCustomizations": {
 		"textMateRules": [
 			{
