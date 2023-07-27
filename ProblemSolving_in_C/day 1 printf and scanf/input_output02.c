@@ -30,9 +30,24 @@ int  main(void) {
 	// int profit = (sp-cp)*25/12;
 	// printf(" profit for selling 25 bannas is %d \n",profit);
 
-	char x;
-	printf(" Enter the character: ");
-	scanf("%c", &x);
-	printf(" ascii code for this character '%c' is %d ", x, x);
+	// char x;
+	// printf(" Enter the character: ");
+	// scanf("%c", &x);
+	// printf(" ascii code for this character '%c' is %d ", x, x);
+
+	// int x;
+	// printf("Enter the ascii code: ");
+	// scanf("%d", &x);
+	// printf(" the character corrsponding to ascii code: %d is %c", x, x);
+
+	// int dd, mm, yy;
+	// printf("Eenter the date in given formate 'DD/MM/YYYY': ");
+	// scanf("%d/%d/%d", &dd, &mm, &yy);
+	// printf("Day - %d, Month - %d, year - %d", dd, mm, yy);
+
+	int hh, mm;
+	printf("Enter the Time in given formate 'HH:MM' :-");
+	scanf("%d:%d", &hh, &mm);
+	printf("HH %d and MM %d", hh, mm);
 	return 0;
 }
