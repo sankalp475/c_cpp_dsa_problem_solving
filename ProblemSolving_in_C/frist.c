@@ -2,6 +2,6 @@
 
 int main(void) {
 
-	printf(" first c program  ");
+	printf(" this is a samle code ");
 		return 0;
 }
