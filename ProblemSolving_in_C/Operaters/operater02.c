@@ -34,11 +34,19 @@ int  main(void) {
 
 
 	//! inr to usd conversioin
-	float inr, inr_val = 84.23, usd;
-	printf("Enter the inr to convert it to usd: ");
-	scanf("%f", &inr);
-	usd = inr / inr_val;
-	printf(" the value of (inr): %.1f in (usd): %.1f \n", inr, usd);
+	// float inr, inr_val = 84.23, usd;
+	// printf("Enter the inr to convert it to usd: ");
+	// scanf("%f", &inr);
+	// usd = inr / inr_val;
+	// printf(" the value of (inr): %.1f in (usd): %.1f \n", inr, usd);
 
+	//! rotate a numer one digit right side 
+	int r,x;
+	printf("enter the number: ");
+	scanf("%d", &r);
+	x = r;
+	printf("number before: %d\n", x);
+	x = r % 10 * 100 + r / 10;
+	printf("number after: %d\n", x);
 	return 0;
 }
