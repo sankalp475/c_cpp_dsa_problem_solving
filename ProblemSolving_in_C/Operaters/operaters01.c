@@ -2,7 +2,7 @@
 
 int  main(void) {
 
-	//! program 1: program to calculate size of character constant
+	// ! program 1: program to calculate size of character constant
 	char x;
 	printf("Enter the program to calculate size of a character constant:");
 	scanf("%c", &x);
@@ -64,7 +64,7 @@ int  main(void) {
 	int x, y, z;
 	printf("Enter two number: ");
 	scanf("%d %d", &x, &y);
-
+	printf("/* no therd variable is used */\n");
 	printf("the value of a before is %d\n", x);
 	printf("the value of b before is %d\n", y);
 	x = x * y;
@@ -74,6 +74,31 @@ int  main(void) {
 	printf("the value of b after is %d\n", y);
 
 	//! program 9: wap to swap a two numer without using arithmatic operater and third variable;
+
+	int x, y;
+	printf("Enter two number to swap without using \narithmatic operater and therd variable: ");
+	scanf("%d %d", &x, &y);
+	printf("/* no therd variable or arithmatic operater */\n");
+	printf("the value of a before is %d\n", x);
+	printf("the value of b before is %d\n", y);
+	x = x ^ y;
+	y = x ^ y;
+	x = x ^ y;
+	printf("the value of a after is %d\n", x);
+	printf("the value of b after is %d\n", y);
+
+
+	//! program 10: wap to swap a two numer single line arithmatic expression;
+
+	int x, y;
+	printf("Enter two number ");
+	scanf("%d %d", &x, &y);
+	printf("/* no therd variable or arithmatic operater */\n");
+	printf("the value of a before is %d\n", x);
+	printf("the value of b before is %d\n", y);
+	x += y - (y = x);
+	printf("the value of a after is %d\n", x);
+	printf("the value of b after is %d\n", y);
 
 	return 0;
 }
