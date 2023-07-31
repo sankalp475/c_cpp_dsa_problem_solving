@@ -32,5 +32,13 @@ int  main(void) {
 	// printf("number after: %d", n1);
 	// printf(" one digit %d is added\n", d1);
 
+
+	//! inr to usd conversioin
+	float inr, inr_val = 84.23, usd;
+	printf("Enter the inr to convert it to usd: ");
+	scanf("%f", &inr);
+	usd = inr / inr_val;
+	printf(" the value of (inr): %.1f in (usd): %.1f \n", inr, usd);
+
 	return 0;
 }
