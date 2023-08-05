@@ -53,4 +53,6 @@ int  main(void) {
 	printf(" the value of x is %d \n", !2 > -2);
 	printf(" the value of x is %d \n", 3 < 0 && 5 > 0);
 	return 0;
+
+	
 }
